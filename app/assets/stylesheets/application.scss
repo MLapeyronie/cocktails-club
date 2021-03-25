@@ -11,3 +11,10 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import "pages/index-cocktails";
+
+body {
+  background-color: #1d193a;
+
+  min-height:80vh;
+}
