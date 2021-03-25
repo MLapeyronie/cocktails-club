@@ -1,12 +1,33 @@
+<%= render "components/navbar" %>
 
-<div class="home">
-  <h1>Cocktails</h1>
-  <div class="image">
-    <%= image_tag('cocktails.jpg') %>
+<div class="main-card">
+  <div class="title">
+    <h1>Cocktail of the week</h1>
+    <p>by Anais</p>
   </div>
-  <h1>Club</h1>
-</div>
-<div class="link">
-  <h2><%= link_to "Entrer", cocktails_path %></h2>
+
+  <div class="cocktail-card">
+
+    <div class="cocktail-picture">
+      <%= image_tag('cocktails.jpg') %>
+    </div>
+
+    <div class="cocktail-description">
+      <div class="cocktail-name">
+        <h1>Saint Germain Spritz</h1>
+      </div>
+      <div class="cocktail-intro">
+        <p>Avec cette version fraîche et florale, la liqueur St-Germain apporte
+          sa touche personnelle à l’emblématique cocktail spritz, laissant ainsi
+          toute son amertume de côté.</p>
+        <p>Grâce à sa recette aux fleurs de sureau, St-Germain transforme ce grand
+          classique des cocktails en une boisson originale.</p>
+      </div>
+      <div class="quote">
+        <p>" <span>Le touche fraîcheur de vos apéritifs ensoleillés</span> "</p>
+      </div>
+
+    </div>
+  </div>
 </div>
 
