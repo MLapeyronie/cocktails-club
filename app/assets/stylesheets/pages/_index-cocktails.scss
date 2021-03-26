@@ -1,0 +1,9 @@
+.all-cocktails {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  column-gap: 10px;
+  row-gap: 25px;
+  justify-content: center;
+}

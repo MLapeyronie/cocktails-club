@@ -1,0 +1,41 @@
+.cocktail-card {
+  background-color: white;
+  width: 90%;
+  height: 100vh;
+  text-align: center;
+  margin: auto;
+  border-radius: 3px;
+box-shadow: 0px 0px 16px 1px rgba(138,135,138,1);
+  img {
+    display: flex;
+    height: 160px;
+    width: 160px;
+    border-radius: 3px;
+    margin: 9% auto;
+  }
+}
+
+.cocktail-title {
+  margin-top: 12%;
+  h1 {
+    font-size: 40px;
+    text-align: left;
+    padding-left: 20px;
+
+  }
+}
+
+.cocktail-prep {
+  h3 {
+    margin-top: 42px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 20px;
+    color: #eb5d5d;
+  }
+  li {
+    text-align: left;
+    font-size: 20px;
+  }
+}

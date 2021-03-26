@@ -1,0 +1,34 @@
+<div class="cocktail-card">
+
+  <div class="cocktail-title">
+    <h1><%= cocktail.name %></h1>
+  </div>
+
+  <div class="cocktail-image">
+    <% case cocktail.name %>
+      <% when "Saint Germain Spritz" %>
+        <p><%= image_tag('saintgermain.png') %></p>
+      <% when "Negroni" %>
+        <p><%= image_tag('negroni.png') %></p>
+      <% when "Cosmopolitan" %>
+        <p> <%= image_tag('cosmo.png') %></p>
+      <% when "Margarita" %>
+        <p><%= image_tag('margarita.png') %></p>
+      <% else %>
+        <p><%= image_tag('vesper.png') %></p>
+    <% end %>
+  </div>
+
+
+  <div class="cocktail-prep">
+    <h3>Comment le préparer :</h3>
+    <div class="cocktail-description">
+      <ul>
+        <li>3cl blabla</li>
+        <li>3cl blabla</li>
+        <li>3cl blabla</li>
+      </ul>
+    </div>
+  </div>
+</div>
+

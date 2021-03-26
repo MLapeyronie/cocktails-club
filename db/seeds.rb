@@ -30,8 +30,8 @@ Cocktail.destroy_all
 # Ingredient.create(name: 'sucre')
 
 
-Cocktail.create(name: 'Mojito')
-Cocktail.create(name: 'Cuba Libre')
-Cocktail.create(name: 'Magarita')
-Cocktail.create(name: 'Pina Colada')
-Cocktail.create(name: 'Martini')
+Cocktail.create(name: 'Saint Germain Spritz')
+Cocktail.create(name: 'Negroni')
+Cocktail.create(name: 'Cosmopolitan')
+Cocktail.create(name: 'Margarita')
+Cocktail.create(name: 'Vesper')
